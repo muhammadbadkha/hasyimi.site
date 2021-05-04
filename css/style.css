@@ -29,9 +29,6 @@ span a {
 	text-decoration: none;
 	margin: 0 10px;
 	transition: all 0.4s ease-in-out;
-	&:hover {
-		color: #ffffff;
-	}
 }
 
 @keyframes float {
@@ -68,7 +65,6 @@ span a {
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
-	img { width: 100%; height: auto; }
 }
 
 .content {
@@ -88,8 +84,4 @@ span a {
 	max-width: 250px;
 	min-width: 200px;
 	z-index: 9;
-	img {
-		width: 100%;
-		height: auto;
-	}
 }
